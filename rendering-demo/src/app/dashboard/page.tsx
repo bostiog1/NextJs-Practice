@@ -8,7 +8,6 @@ export default function Dashboard() {
   return (
     <div>
       <h1>Dashboard</h1>
-      
       <input value={name} onChange={(e) => setName(e.target.value)} />
       <p>Hello, {name}</p>
     </div>
